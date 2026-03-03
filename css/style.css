@@ -16,9 +16,9 @@
     --gray-200: #edf2f7;
     --gray-100: #f7fafc;
     --white: #ffffff;
-    --font-heading: 'Inter', 'Segoe UI', sans-serif;
-    --font-body: 'Source Serif 4', 'Georgia', serif;
-    --font-sans: 'Inter', 'Segoe UI', sans-serif;
+    --font-heading: 'Montserrat', 'Segoe UI', sans-serif;
+    --font-body: 'Source Sans Pro', 'Helvetica Neue', 'Arial', sans-serif;
+    --font-sans: 'Montserrat', 'Segoe UI', sans-serif;
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
     --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
     --shadow-lg: 0 10px 40px rgba(0,0,0,0.15);
@@ -244,7 +244,7 @@ ul { list-style: none; }
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
 }
 
 .nav-links a::after {
@@ -277,14 +277,18 @@ ul { list-style: none; }
 
 .nav-cta {
     font-family: var(--font-sans);
-    font-size: 0.85rem !important;
+    font-size: 0.9rem !important;
     font-weight: 600 !important;
-    padding: 0.6rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     background: var(--accent);
     color: var(--white) !important;
     border-radius: var(--radius-sm);
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
 }
 
 .nav-cta::after { display: none !important; }
@@ -1879,3 +1883,4 @@ ul { list-style: none; }
 
     .stat-number { font-size: 2rem; }
 }
+
